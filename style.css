@@ -1,0 +1,75 @@
+html {
+    /* background-image: url("IMG_5255.jpeg"); */
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* font-family: 'Baskervville', serif; */
+    font-family: 'Crimson Text', serif;
+    color: white;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.row {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15%;
+}
+
+h1 {
+    /* font-style: italic; */
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    /* float: left; */
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.un {
+    display: inline-block;
+}
+
+.un:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: rgba(255, 255, 255, 0);
+    transition: 300ms;
+}
+
+.un:hover:after {
+    background: rgba(255, 255, 255, 255);
+}
+
+.uun {
+    color: lightgrey;
+}
